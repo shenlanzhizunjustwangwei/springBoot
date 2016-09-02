@@ -30,7 +30,7 @@
     <bytecodeTargetLevel>
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-schedule" target="1.8" />
-      <module name="springboot-swagger" target="1.5" />
+      <module name="springboot-swagger" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
