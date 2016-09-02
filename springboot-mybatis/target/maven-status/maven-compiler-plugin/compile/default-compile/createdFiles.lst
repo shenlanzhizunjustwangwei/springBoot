@@ -1,0 +1,4 @@
+org\shenlan\Application.class
+org\shenlan\web\User.class
+org\shenlan\web\UserMapper.class
+org\shenlan\web\UserController.class

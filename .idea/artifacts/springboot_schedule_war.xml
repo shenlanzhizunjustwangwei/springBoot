@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-schedule:war">
+    <output-path>$PROJECT_DIR$/springboot-schedule/target</output-path>
+    <root id="archive" name="springboot-schedule-1.0.1.war">
+      <element id="artifact" artifact-name="springboot-schedule:war exploded" />
+    </root>
+  </artifact>
+</component>
