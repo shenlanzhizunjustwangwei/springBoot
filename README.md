@@ -1,1 +1,5 @@
-# springBoot与mybatis的融合
+#本系列教程是针对springboot的入门级教程
+
+springBoot与mybatis的完美融合  参考地址：http://www.cnblogs.com/shenlanzhizun/p/5832976.html
+
+springBoot与schedule的激情相拥 参考地址:http://www.cnblogs.com/shenlanzhizun/p/5834108.html
