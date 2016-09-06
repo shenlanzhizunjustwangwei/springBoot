@@ -4,15 +4,17 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springBoot-mail" />
+    <file type="web" url="file://$PROJECT_DIR$/springBoot-mutidata" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-schedule" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-swagger/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-schedule/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot-mutidata/pom.xml" />
       </list>
     </option>
   </component>

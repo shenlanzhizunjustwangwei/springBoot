@@ -22,12 +22,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="springBoot-mail" />
+        <module name="springBoot-mutidata" />
         <module name="springboot-mybatis" />
         <module name="springboot-schedule" />
         <module name="springboot-swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springBoot-mail" target="1.8" />
+      <module name="springBoot-mutidata" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot-schedule" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
