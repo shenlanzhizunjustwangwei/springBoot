@@ -7,7 +7,7 @@
     <groupId>springBoot-mail</groupId>
     <artifactId>springBoot-mail</artifactId>
     <version>1.0.1</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>springBoot-mail</name>
     <description>Spring Boot project</description>
