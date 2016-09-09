@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/springBoot-mutidata" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-schedule" />
+    <file type="web" url="file://$PROJECT_DIR$/springBoot-thymeleaf" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -19,6 +20,7 @@
         <option value="$PROJECT_DIR$/springBoot-mutidata/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot-aop/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot-async/pom.xml" />
+        <option value="$PROJECT_DIR$/thymeleaf/pom.xml" />
       </list>
     </option>
   </component>
