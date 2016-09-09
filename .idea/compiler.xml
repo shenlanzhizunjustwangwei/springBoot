@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="springBoot-aop" />
+        <module name="springBoot-async" />
         <module name="springBoot-mail" />
         <module name="springBoot-mutidata" />
         <module name="springboot-mybatis" />
@@ -32,6 +33,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springBoot-aop" target="1.8" />
+      <module name="springBoot-async" target="1.8" />
       <module name="springBoot-mail" target="1.8" />
       <module name="springBoot-mutidata" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />

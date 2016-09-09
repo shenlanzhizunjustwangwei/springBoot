@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springBoot-async:war exploded">
+    <output-path>$PROJECT_DIR$/springBoot-async/target/springBoot-async-1.0.1</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springBoot-async" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.3.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.3.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.3.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.3.2.RELEASE" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.3" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.13" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.13" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.13" />
+          <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.7.13" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.16" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/springBoot-async/target/springBoot-async-1.0.1/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="springBoot-async/web/Web" />
+    </root>
+  </artifact>
+</component>
