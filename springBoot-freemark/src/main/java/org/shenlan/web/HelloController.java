@@ -19,7 +19,25 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index(ModelMap map) {
-        map.addAttribute("host", "=================");
+        map.addAttribute("host", "freemarker");
         return "index";
     }
+
+    @RequestMapping("/th")
+    public String index1(ModelMap map) {
+        map.addAttribute("host", "thymeleaf");
+        return "index1";
+    }
+
+    @RequestMapping("/vm")
+    public String index2(ModelMap map) {
+        map.addAttribute("host", "velocity");
+        return "index2";
+    }
+    @RequestMapping("/jsp")
+    public String index3(ModelMap map) {
+        map.addAttribute("host", "jsp测试");
+        return "indexj";
+    }
+
 }
