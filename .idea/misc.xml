@@ -6,6 +6,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springBoot-aop" />
     <file type="web" url="file://$PROJECT_DIR$/springBoot-async" />
+    <file type="web" url="file://$PROJECT_DIR$/springBoot-freemark" />
     <file type="web" url="file://$PROJECT_DIR$/springBoot-mail" />
     <file type="web" url="file://$PROJECT_DIR$/springBoot-mutidata" />
     <file type="web" url="file://$PROJECT_DIR$/springboot-mybatis" />
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/springBoot-aop/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot-async/pom.xml" />
         <option value="$PROJECT_DIR$/thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot-freemark/pom.xml" />
       </list>
     </option>
   </component>

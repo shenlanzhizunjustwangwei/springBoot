@@ -5,9 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/springBoot.iml" filepath="$PROJECT_DIR$/.idea/springBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot-aop/springBoot-aop.iml" filepath="$PROJECT_DIR$/springBoot-aop/springBoot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot-async/springBoot-async.iml" filepath="$PROJECT_DIR$/springBoot-async/springBoot-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot-freemark/springBoot-freemark.iml" filepath="$PROJECT_DIR$/springBoot-freemark/springBoot-freemark.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot-mail/springBoot-mail.iml" filepath="$PROJECT_DIR$/springBoot-mail/springBoot-mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBoot-mutidata/springBoot-mutidata.iml" filepath="$PROJECT_DIR$/springBoot-mutidata/springBoot-mutidata.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springBoot-thymeleaf/thymeleaf.iml" filepath="$PROJECT_DIR$/springBoot-thymeleaf/thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-schedule/springboot-schedule.iml" filepath="$PROJECT_DIR$/springboot-schedule/springboot-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
