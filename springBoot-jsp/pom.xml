@@ -4,13 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>springBoot-aop</groupId>
-    <artifactId>springBoot-aop</artifactId>
+    <groupId>springBoot-jsp</groupId>
+    <artifactId>springBoot-jsp</artifactId>
     <version>1.0.1</version>
     <packaging>war</packaging>
+    <name>springBoot-jsp</name>
 
-    <name>springBoot-aop</name>
-    <description>Spring Boot project</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -24,47 +23,32 @@
         <java.version>1.8</java.version>
     </properties>
 
+
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-logging</artifactId>
-                </exclusion>
-            </exclusions>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j</artifactId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
-
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -75,12 +59,12 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
+                    <useSystemClassLoader>false</useSystemClassLoader>
                     <skip>true</skip>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 
 
 </project>

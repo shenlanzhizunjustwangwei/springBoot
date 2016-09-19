@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springBoot-jsp:war">
+    <output-path>$PROJECT_DIR$/springBoot-jsp/target</output-path>
+    <root id="archive" name="springBoot-jsp-1.0.1.war">
+      <element id="artifact" artifact-name="springBoot-jsp:war exploded" />
+    </root>
+  </artifact>
+</component>
